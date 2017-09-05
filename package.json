@@ -1,6 +1,6 @@
 {
   "name": "chartjs-ng2",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": false,
   "description": "Reactive, responsive, beautiful charts for Angular2 based on Chart.js",
   "scripts": {
