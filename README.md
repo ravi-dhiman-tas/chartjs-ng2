@@ -3,7 +3,7 @@
 
 ### Installation
 
-1. You can install ***ng2-charts*** using npm
+1. You can install ***chartjs-ng2*** using npm
 
   ```bash
   npm install chartjs-ng2 --save
@@ -30,7 +30,7 @@ System.js bundles can be found in `bundles` directory of npm package or at [npm 
 
 ### Import
 ```typescript
-import { NgChartModule } from 'ng2-charts/ng2-charts';
+import { NgChartModule } from 'chartjs-ng2/chartjs-ng2';
 
 // In your App's module:
 imports: [
