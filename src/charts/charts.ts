@@ -361,5 +361,5 @@ function getColors(chartType:string, index:number, count:number):Color {
   ],
   imports: []
 })
-export class ChartsModule {
+export class NgChartModule {
 }
