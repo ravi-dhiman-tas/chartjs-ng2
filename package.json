@@ -25,7 +25,7 @@
     "git-commit-changelog": "git commit -am \"chore(changelog): update\"",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -r 2"
   },
-  "main": "bundles/ng2-charts.umd.js",
+  "main": "bundles/chartjs-ng2.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
   "keywords": [

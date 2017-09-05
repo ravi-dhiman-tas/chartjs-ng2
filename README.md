@@ -23,7 +23,7 @@
 
 ### System.js
 
-System.js bundles can be found in `bundles` directory of npm package or at [npm cdn](https://npmcdn.com/ng2-charts/bundles/)
+System.js bundles can be found in `bundles` directory of npm package or at [npm cdn](https://npmcdn.com/chartjs-ng2/bundles/)
 
 
 ## API

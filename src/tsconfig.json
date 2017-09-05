@@ -29,7 +29,7 @@
   ],
   "files": [
     "../scripts/typings.d.ts",
-    "./ng2-charts.ts",
+    "./chartjs-ng2.ts",
     "./index.ts"
   ],
   "angularCompilerOptions": {
