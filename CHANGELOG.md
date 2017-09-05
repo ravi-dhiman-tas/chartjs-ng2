@@ -1,3 +1,8 @@
+<a name="2.1.2"></a>
+## [2.1.2](https://github.com/ravid7000/chartjs-ng2/compare/v2.1.1...v2.1.2) (2017-09-05)
+
+
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/ravid7000/chartjs-ng2/compare/v2.1.0...v2.1.1) (2017-09-05)
 
