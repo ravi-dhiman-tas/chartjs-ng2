@@ -1,3 +1,8 @@
+<a name="2.0.0"></a>
+# 2.0.0 (2017-09-05)
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/valor-software/ng2-charts/compare/v1.5.0...v1.6.0) (2017-05-30)
 
