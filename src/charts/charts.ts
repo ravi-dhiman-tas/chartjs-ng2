@@ -150,7 +150,7 @@ export class BaseChartDirective implements OnDestroy, OnChanges, OnInit {
         .map((elm:number, index:number) => {
           let newElm:any = Object.assign({}, elm);
           if (this.colors && this.colors.length) {
-            Object.assign(newElm, this.colors[index]);
+            Object.assign(newElm, formatColors(this.chartType, index, newElm.data.length));
           } else {
             Object.assign(newElm, getColors(this.chartType, index, newElm.data.length));
           }
@@ -324,6 +324,32 @@ function generateColors(count:number):Array<number[]> {
     colorsArr[i] = BaseChartDirective.defaultColors[i] || getRandomColor();
   }
   return colorsArr;
+}
+
+/**
+ * Format chart colors when supplied
+ * @param chartType
+ * @param index
+ * @param count
+ * @returns {Color}
+ */
+function formatColors(chartType:string, index:number, count:number) {
+  if (chartType === 'pie' || chartType === 'doughnut') {
+    return formatPieColors(this.colors);
+  }
+
+  if (chartType === 'polarArea') {
+    return formatPolarAreaColors(this.colors);
+  }
+
+  if (chartType === 'line' || chartType === 'radar') {
+    return formatLineColor(this.colors[index]);
+  }
+
+  if (chartType === 'bar' || chartType === 'horizontalBar') {
+    return formatBarColor(this.colors[index]);
+  }
+  return this.colors[index];
 }
 
 /**
